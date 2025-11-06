@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Desarrollador dev = new Desarrollador("Ana", 101, 3500, "Java");
+        Desarrollador dev = new Desarrollador("Nicole",101,3500, "Java");
         Gerente mgr = new Gerente("Carlos", 201, 6000, 5);
         Diseñador dis = new Diseñador("Lucía", 301, 3200, "Figma");
 
