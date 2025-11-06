@@ -1,5 +1,5 @@
 public class Diseñador extends Empleado {
-    
+
     private String herramientaPrincipal;
 
     public Diseñador(String nombre, int id, double salario, String herramienta) {
@@ -17,4 +17,4 @@ public class Diseñador extends Empleado {
     }
 }
     
-}
+
