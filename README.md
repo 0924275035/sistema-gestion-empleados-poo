@@ -9,6 +9,8 @@ El siguiente diagrama representa la estructura general del sistema, ilustrando l
 
 ```mermaid
 classDiagram
+
+
     class Empleado {
         -nombre: String
         -id: int
@@ -42,6 +44,18 @@ classDiagram
     Empleado <|-- Desarrollador
     Empleado <|-- Diseñador
     Empleado <|-- Gerente
+
+
+
+
+
+
+
+
+
+
+
+
 ````
 
 ## Justificación de Diseño
