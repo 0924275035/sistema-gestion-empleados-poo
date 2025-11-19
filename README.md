@@ -8,9 +8,41 @@ Este proyecto modela diferentes tipos de empleados en una empresa usando herenci
 
 
 ```mermaid
+classDiagram
+    class Empleado {
+        -nombre: String
+        -id: int
+        -salario: double
+        +Empleado(nombre: String, id: int, salario: double)
+        +trabajar()
+        +mostrarInfo()
+    }
 
-     
-````
+    class Desarrollador {
+        -lenguajePrincipal: String
+        +Desarrollador(nombre: String, id: int, salario: double, lenguaje: String)
+        +escribirCodigo()
+        +trabajar()
+    }
+
+    class Diseñador {
+        -herramientaPrincipal: String
+        +Diseñador(nombre: String, id: int, salario: double, herramienta: String)
+        +crearPrototipo()
+        +trabajar()
+    }
+
+    class Gerente {
+        -numSubordinados: int
+        +Gerente(nombre: String, id: int, salario: double, numSubordinados: int)
+        +coordinarEquipo()
+        +trabajar()
+    }
+
+    Empleado <|-- Desarrollador
+    Empleado <|-- Diseñador
+    Empleado <|-- Gerente
+```
 
 
 ## Justificación de Diseño
