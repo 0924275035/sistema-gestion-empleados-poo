@@ -6,7 +6,6 @@ Este proyecto modela diferentes tipos de empleados en una empresa usando herenci
 ## Diagrama de Clases UML
 El siguiente diagrama representa la estructura general del sistema, ilustrando la relación de herencia y los métodos principales de cada clase.
 
-![Diagrama UML](diagrama.png)
 
 ```mermaid
 classDiagram
