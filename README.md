@@ -8,7 +8,7 @@ Este proyecto modela diferentes tipos de empleados en una empresa usando herenci
 
 
 ```mermaid
-https://infograph.venngage.com/design/51a3cf29-342d-4eae-9577-2e3b7cfe2afd
+
      
 ````
 
