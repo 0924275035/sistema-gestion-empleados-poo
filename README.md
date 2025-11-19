@@ -43,7 +43,7 @@ classDiagram
     Empleado <|-- Desarrollador
     Empleado <|-- Diseñador
     Empleado <|-- Gerente
-``
+````
 
 ## Justificación de Diseño
 
