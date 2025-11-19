@@ -6,6 +6,17 @@ Este proyecto modela diferentes tipos de empleados en una empresa usando herenci
 ## Diagrama de Clases UML
 ![Diagrama UML](diagrama.png)
 
+
+```mermaid
+graph LR;
+      orderDB[(orderDb)]
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+````
+
+
 ## Justificación de Diseño
 
 ### ¿Por qué se eligió esa jerarquía de herencia?
