@@ -9,11 +9,7 @@ Este proyecto modela diferentes tipos de empleados en una empresa usando herenci
 
 ```mermaid
 graph LR;
-      orderDB[(orderDb)]
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+     
 ````
 
 
