@@ -7,6 +7,8 @@ Este proyecto modela diferentes tipos de empleados en una empresa usando herenci
 El siguiente diagrama representa la estructura general del sistema, ilustrando la relación de herencia y los métodos principales de cada clase.
 
 ![Diagrama UML](diagrama.png)
+
+```mermaid
 classDiagram
     class Empleado {
         -nombre: String
@@ -41,7 +43,7 @@ classDiagram
     Empleado <|-- Desarrollador
     Empleado <|-- Diseñador
     Empleado <|-- Gerente
-
+``
 
 ## Justificación de Diseño
 
