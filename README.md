@@ -4,7 +4,7 @@
 Este proyecto modela diferentes tipos de empleados en una empresa usando herencia en POO. La clase base "Empleado" contiene atributos comunes, mientras que "Desarrollador", "Gerente" y "Diseñador" añaden funcionalidades específicas.
 
 ## Diagrama de Clases UML
-![Diagrama UML](diagrama.png)
+(diagrama.png)
 
 ## Justificación de Diseño
 
